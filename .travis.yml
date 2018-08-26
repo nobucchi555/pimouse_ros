@@ -1,8 +1,5 @@
 sudo: required
 dist: trusty
 
-install:
-  - pip install coveralls
-
 script:
   - bash -xve ./test/travis_ros_install.bash
