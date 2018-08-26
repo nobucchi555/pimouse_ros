@@ -1,8 +1,8 @@
 sudo: required
 dist: trusty
 
-brfore_script:
-  - "pip freeze"
+install:
+  - pip install coveralls
 
 script:
   - bash -xve ./test/travis_ros_install.bash
